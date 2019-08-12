@@ -1,5 +1,5 @@
 name: test-incuvers-iot-jy	
-version: '1'
+version: '1.02'
 summary: test-incuvers-iot-jy
 description: |
   Simple test of a hello world flask app.
