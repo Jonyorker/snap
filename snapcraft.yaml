@@ -7,7 +7,7 @@ grade: devel
 
 architectures:
   - build-on: amd64
-    run-on: arm64
+    run-on: amd64
 
 confinement: devmode
 
@@ -21,7 +21,7 @@ parts:
        [flask]
 
 apps:
-  test-incuvers-iot:
+  test-incuvers-iot-jy:
       command: flask run
       daemon: simple
       restart-condition: always

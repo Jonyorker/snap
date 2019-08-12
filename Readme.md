@@ -1,2 +1,0 @@
-# Snaps
-no content yet
