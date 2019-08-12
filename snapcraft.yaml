@@ -6,8 +6,8 @@ description: |
 grade: devel
 
 architectures:
-  - build-on: armhf
-    run-on: armhf
+  - build-on: amd64
+    run-on: amd64
 
 confinement: devmode
 
