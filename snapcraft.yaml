@@ -17,8 +17,6 @@ parts:
   flask-app:
     plugin: python
     python-version: python3
-    python-packages:
-       [flask]
     source: .
 
 apps:
