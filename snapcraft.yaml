@@ -1,6 +1,6 @@
-name: test-incuvers-iot
-version: '1.01'
-summary: test-incuvers-iot
+name: test-incuvers-iot-jy	
+version: '1'
+summary: test-incuvers-iot-jy
 description: |
   Simple test of a hello world flask app.
 grade: devel
