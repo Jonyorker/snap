@@ -19,6 +19,7 @@ parts:
     python-version: python3
     python-packages:
        [flask]
+    source: .
 
 apps:
   test-incuvers-iot-jy:
@@ -27,6 +28,6 @@ apps:
       restart-condition: always
       plugs: [home, network, network-bind]
       environment:
-          FLASK_APP: hello.py
+          FLASK_APP: app.py
           LC_ALL: C.UTF-8
           LANG: C.UTF-8
