@@ -6,7 +6,7 @@ description: |
 grade: devel
 
 architectures:
-  - build-on: amd64
+  - build-on: arm64
     run-on: arm64
 
 confinement: devmode
