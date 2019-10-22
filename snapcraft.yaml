@@ -1,5 +1,5 @@
 name: test-incuvers-iot-jy
-version: '1.02'
+version: '1.03'
 summary: test-incuvers-iot-jy
 description: |
   Simple test of a hello world flask app.
@@ -15,7 +15,7 @@ base: core18
 
 apps:
   test-incuvers-iot-jy:
-      command: flask run
+      command: flask run --host=0.0.0.0
       daemon: simple
       restart-condition: always
       plugs: [home, network, network-bind]
